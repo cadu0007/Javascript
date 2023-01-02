@@ -1,11 +1,12 @@
-// tipo number aula 4
+// tipo string aula 6
 
-// nessa aula eu vi como que eu posso somar, multiplicar, dividir e subtrair qualquer resultado
+// no tipo string aprendemos a concatenaçao que serve para juntar as informaçoes de algumas vareaveis 
 
-const meunum = 7
 
-const primeironum = 4;
-const segundonum = 3;
+const senha = "USdrip777";
 
-const valordesejado = primeironum + segundonum;
-console.log(valordesejado);
+const txt1 = "ola pessoal eu sou";
+const txt2 = "carlos, tenho 17 anos";
+const txt3 = "gosto de basquete e futbol";
+
+console.log(txt1 + txt2 + txt3);
