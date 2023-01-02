@@ -1,6 +1,6 @@
 // tipo string aula 6
 
-// no tipo string aprendemos a concatenaçao que serve para juntar as informaçoes de algumas vareaveis 
+// no tipo string aprendemos a concatenaçao que serve para juntar as informaçoes de algumas 
 
 
 const senha = "USdrip777";
