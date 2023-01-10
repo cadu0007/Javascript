@@ -5,9 +5,14 @@ const alunosE_medias = [alunos, medias];
 
 function exibirNomeENota(aluno) {
     if (alunosE_medias[0].includes(aluno)) {
-        const indice = alunosE_medias[0].indexOf(aluno);
+        // const alunos = alunosE_medias[0];
+        // const medias = alunosE_medias[1];
 
-        const mediaDoAluno = alunosE_medias[1][indice];
+        const [alunos, medias] = alunosE_medias;
+
+        const indice = alunos.indexOf(aluno);
+
+        const mediaDoAluno = medias[indice];
 
         console.log(`${aluno} tem media ${mediaDoAluno}`);      
     }else{
